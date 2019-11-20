@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
+import {ReactiveFormsModule} from'@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
 import { AdminRegisterComponent } from './admin-register/admin-register.component';
 import { CustRegisterComponent } from './cust-register/cust-register.component'
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,7 @@ import { CustRegisterComponent } from './cust-register/cust-register.component'
     AppRoutingModule,
     NoopAnimationsModule,
     MaterialModule,
+    ReactiveFormsModule,
     FormsModule
   ],
 
@@ -30,3 +33,6 @@ import { CustRegisterComponent } from './cust-register/cust-register.component'
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
