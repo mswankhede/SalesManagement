@@ -7,13 +7,15 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
-import { AdminRegisterComponent } from './admin-register/admin-register.component'
+import { AdminRegisterComponent } from './admin-register/admin-register.component';
+import { CustRegisterComponent } from './cust-register/cust-register.component'
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserComponent,
     AdminRegisterComponent,
+    CustRegisterComponent,
     
   ],
   imports: [
