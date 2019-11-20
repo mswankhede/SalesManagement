@@ -8,7 +8,7 @@ import { from } from 'rxjs';
 
 const routes: Routes = [
 {path:'user',component:UserComponent},
-{path:'login',component:LoginComponent},
+{path:'login',component:LoginComponent}, 
 {path:'cust-register',component:CustRegisterComponent}];
 
 @NgModule({
