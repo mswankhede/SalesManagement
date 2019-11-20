@@ -11,6 +11,7 @@ import { UserComponent } from './user/user.component';
 import { AdminRegisterComponent } from './admin-register/admin-register.component';
 import { CustRegisterComponent } from './cust-register/cust-register.component'
 import { from } from 'rxjs';
+import { SidenavComponent } from './sidenav/sidenav.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { from } from 'rxjs';
     UserComponent,
     AdminRegisterComponent,
     CustRegisterComponent,
+    SidenavComponent,
     
   ],
   imports: [
