@@ -1,0 +1,17 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened>
+        <mat-nav-list>
+            <a mat-list-item> Oders </a>
+            <a mat-list-item> Customer Support </a>
+            <a mat-list-item>Sales </a>
+            <a mat-list-item>Statistics</a>
+    </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar>
+            <span>Shopkeeper Store</span>
+            <span>logout</span>
+        </mat-toolbar>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
