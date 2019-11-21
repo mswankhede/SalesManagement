@@ -7,8 +7,11 @@ import { from } from 'rxjs';
 
 
 const routes: Routes = [
+{path:'customer',loadChildren:'./moduls/customer-module/customer-module-routing.module.ts'},
+{path:'admin',loadChildren:'./moduls/admin-module/admin-module-routing.module.ts'},
 {path:'user',component:UserComponent},
-{path:'login',component:LoginComponent}, 
+{path:'',component:LoginComponent},
+{path:'login',component:LoginComponent},
 {path:'cust-register',component:CustRegisterComponent}];
 
 @NgModule({
