@@ -12,8 +12,6 @@ const routes: Routes = [
 {path:'login',component:LoginComponent},
 {path:'cust-register',component:CustRegisterComponent},
 {path:'admin-register',component:AdminRegisterComponent},
-{path:'customer',loadChildren:'./moduls/customer-module/customer-module-routing.module.ts'},
-{path:'admin',loadChildren:'./moduls/admin-module/admin-module-routing.module.ts'},
 {path:'user',component:UserComponent}]
 
 
